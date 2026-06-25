@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1b1b1b;
+    font-family:Arial, sans-serif;
+}
+
+.piano{
+    position:relative;
+    display:flex;
+    background:#111;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
+}
+
+.white-key{
+    width:60px;
+    height:280px;
+    background:white;
+    border:1px solid #444;
+    border-radius:0 0 8px 8px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    padding-bottom:12px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.white-key:hover{
+    background:#f0f0f0;
+}
+
+.black-key{
+    position:absolute;
+    width:40px;
+    height:170px;
+    background:black;
+    border-radius:0 0 6px 6px;
+    z-index:10;
+    cursor:pointer;
+}
+
+.black-key:hover{
+    background:#222;
+}
+
+/* First Octave */
+.k1{ left:62px; }
+.k2{ left:122px; }
+
+.k3{ left:242px; }
+.k4{ left:302px; }
+.k5{ left:362px; }
+
+/* Second Octave */
+.k6{ left:482px; }
+.k7{ left:542px; }
+
+.k8{ left:662px; }
+.k9{ left:722px; }
+.k10{ left:782px; }

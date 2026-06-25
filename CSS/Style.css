@@ -1,0 +1,13 @@
+#para {
+        color: blue;
+    font-family: 'Arial', sans-serif;   
+    font-weight: bold;                 
+    line-height: 1.8;                   
+    text-decoration: underline;         
+    text-align: center;                 
+    text-transform: uppercase;          
+    letter-spacing: 3px;                
+    word-spacing: 10px;               
+    text-shadow: 2px 2px 5px gray;      
+}
+
